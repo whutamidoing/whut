@@ -1,0 +1,315 @@
+@font-face {
+    font-family: gshin;
+    src: url('../fonts/Genshin-Impact-Font/zh-cn.ttf');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #202020;
+
+    color: #fff;
+    font-family: gshin;
+}
+nav {
+    width: 100%;
+    height: 70px;
+
+    position: fixed;
+    overflow: hidden;
+
+    background-color: #202020a0;
+    box-shadow:0px 3px 5px #000;
+}
+a {
+    background: linear-gradient(#fff, #e0e0ff, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-label {
+    display: inline;
+}
+.logo {
+    float: left;
+    margin-left: 10px;
+
+    width: 60px;
+    height: 65px;
+}
+.list {
+    padding:26px 25px;
+
+    text-align: center;
+    float: right;
+
+    transition: 600ms;
+}
+.nav-link {
+    color: #fff;
+}
+.contact:hover {
+    background-color: #202020;
+
+    color: #000;
+}
+#front {
+    background-image: url(../images/main.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+    padding-left: 10px;
+    border-bottom: 2px solid #404040;
+}
+.front-wrapper {
+    margin: 10px;
+    margin-bottom: 100px;
+}
+#heading-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+    margin-bottom: 50px;
+
+    transition: 600ms ease;
+}
+#heading-logo:hover {
+    width: 150px;
+    height: 150px;
+
+    box-shadow: 0px 0px 15px #ffff90;
+}
+.front-heading {
+    display: block;
+    color: #fff;
+
+    background: linear-gradient(#fff, #e0e0ff, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.front-heading2 {
+    background: linear-gradient(#fff, #e0e0ff, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: block;
+}
+.front-text {
+    font-size: 50px;
+
+    background: linear-gradient(#fff, #e0e0ff, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: 1000px;
+}
+.wiki-bg {
+    content: "";
+    background-image: url(../images/raiden.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    filter: blur(3px);
+
+    width: 100%;
+    height:130vh;
+
+    z-index: -1;
+    position: fixed;
+}
+.wiki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: fit-content;
+    margin: 50px;
+}
+.wiki-wrapper {
+    background-color: #202020;
+
+    margin-top: 20px;
+    border-top: #ffd990 solid 5px;
+    border-bottom: 2px solid #404040;
+    border-radius: 5px;
+
+    width: 80%;
+    height: fit-content;
+}
+.heading_wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.wiki-logo {
+    display: inline;
+
+    margin-left: 50px;
+
+    color:#fff;
+}
+.wiki-logographic {
+    display: inline;
+    float: right;
+
+    border-radius: 10px;
+
+    margin: 30px;
+    margin-right: 50px;
+
+    height: 130px;
+}
+.link-dec {
+    display: inline;
+    font-size: 15px;
+}
+.wikiheader {
+    font-size: 40px;
+    margin: 5px;
+
+    padding: 10px;
+    padding-top: 20px;
+    border-top: 2px solid #404040;
+
+    text-shadow: 0px 0px 5px #fff;
+    background: linear-gradient(#fff, #00ffff, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wikiimage-heading {
+    float: right;
+
+    border: 2px solid #fff;
+    border-radius: 10px 10px 0 0;
+
+    overflow: hidden;
+
+    width: 370px;
+    height: 600px;
+
+    margin: 20px;
+    margin-right: 100px;
+
+    box-shadow: 5px 5px 5px #000;
+}
+.wikiheading-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 20px;
+    background-color: #ffd990;
+
+    width: 100%;
+    height: 40px;
+
+    border-bottom: 2px solid #fff;
+
+    color: #202020;
+}
+.wikiheader-image {
+    width: 370px;
+    height: 600px;
+}
+.introduction {
+    width: 500px;
+
+    margin: 70px;
+}
+.introtext {
+    font-size: 20px;
+
+    margin: 30px;
+}
+.gameplaywiki {
+    background-image: url(../images/hutao2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+
+    border-top: 10px solid #ffd990;
+    border-bottom: 10px solid #ffd990;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 50px;
+}
+.gameplaywiki_wrapper {
+    margin: 30px;
+
+    width: 60vw;
+    
+    border-top: 7px solid#ffff90;
+    border-bottom: 3px solid #409090a0;
+    border-radius: 7px;
+
+    background-color: #00aaaaa0;
+}
+.gameplayheader {
+    font-size: 30px;
+    background: linear-gradient(#fff, #ffffcc, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.storywiki {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+    width: 100%;
+    height: fit-content;
+}
+.storywiki_wrapper {
+    background-color: #202020;
+
+    margin-top: 100px;
+
+    width: 800px;
+}
+.storyheader {
+    font-size: 30px;
+    border-bottom: 2px solid #404040;
+    background: linear-gradient(#fff, #ffffcc, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.storysubheader {
+    border-bottom: 2px solid #505050;
+    background: linear-gradient(#fff, #ffffcc, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wikiinfo {
+    display: block;
+
+    padding: 15px;
+    margin: 15px;
+}
+.storyimage {
+    border: 1px solid #404040;
+    border-top: 7px solid #303030;
+    border-bottom: 7px solid #303030;
+
+    width: 100%;
+}
