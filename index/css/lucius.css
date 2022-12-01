@@ -61,7 +61,7 @@ a {
 #front {
     background-image: url(../images/main.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 
     display: flex;
     align-items: center;
